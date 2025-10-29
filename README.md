@@ -2,11 +2,16 @@
 
 Puzzled-Skeleton is a small C# WPF game where the player, a skeleton who was once human, must navigate through a series of dungeon chambers to find a way out. Along the journey, the skeleton discovers a photo from its past, which restores it to its human form. The game is built using C# with WPF for the interface and visuals.
 
-// TODO: Preview image
+| ![Preview 1](Puzzled/Resources/Textures/Preview-1.png) | ![Preview 2](Puzzled/Resources/Textures/Preview-2.png) |
+|:--:|:--:|
+| **MainMenu** | **Level Design** |
 
 ## Features
-
-// TODO: Features
+- **Spikes** – Deadly traps that cause the player to respawn.
+- **Movable Boxes** – Push and position boxes to solve puzzles.
+- **Keys and Openable** Doors – Collect keys to unlock new paths.
+- **Lava Hazards** – Avoid deadly lava pools scattered through levels.
+- **5 Playable Levels** – Explore multiple dungeons, each with unique puzzles and difficulty.
 
 ## Getting Started
 
@@ -60,60 +65,60 @@ Build instructions for this project can be found in the [BUILDING.md](BUILDING.m
     - [x] 🟩 Fix UICanvas blocking GameCanvas
     - [ ] 🟧 Allow for scene passthrough of control of objects (sounds)
 
-- [ ] Core Game
-  - [ ] UI
-    - [ ] Global
-      - [ ] 🟩 US21/US41 Simpele interface
-    - [ ] Menus
-      - [ ] 🟩 Main Menu
-        - [ ] 🟩 "Press Any Key" Font selection
-      - [ ] 🟨 Pause Menu
+- [x] Core Game
+  - [x] UI
+    - [x] Global
+      - [x] 🟩 US21/US41 Simpele interface
+    - [x] Menus
+      - [x] 🟩 Main Menu
+        - [x] 🟩 "Press Any Key" Font selection
+      - [x] 🟨 Pause Menu
       - [ ] 🟥 Level Menu
-      - [ ] 🟩 Win Menu + Score + Leaderboard
-      - [ ] 🟩 Save (selection) Menu
-      - [ ] 🟨 Level overlay
+      - [x] 🟩 Win Menu + Score + Leaderboard
+      - [x] 🟩 Save (selection) Menu
+      - [x] 🟨 Level overlay
       - [ ] 🟥 Final win menu (showing achievements)
-      - [ ] 🟥 Options menu (sound slider)
-  - [ ] Levels
+      - [x] 🟥 Options menu (sound slider)
+  - [x] Levels
     - [x] Global
       - [x] 🟩 Level loading from disk
     - [ ] Design
-      - [ ] 🟩 Level 1 (🟩 normal / 🟧extra hard)
-      - [ ] 🟨 Level 2 (🟨 normal / 🟧extra hard)
-      - [ ] 🟨 Level 3 (🟨 normal / 🟧extra hard)
-      - [ ] 🟨 Level 4 (🟨 normal / 🟧extra hard)
-      - [ ] 🟨 Level 5 (🟨 normal / 🟧extra hard)
-      - [ ] 🟨 Level 6 (🟨 normal / 🟧extra hard)
+      - [x] 🟩 Level 1 (🟩 normal / 🟧extra hard)
+      - [x] 🟨 Level 2 (🟨 normal / 🟧extra hard)
+      - [x] 🟨 Level 3 (🟨 normal / 🟧extra hard)
+      - [x] 🟨 Level 4 (🟨 normal / 🟧extra hard)
+      - [x] 🟨 Level 5 (🟨 normal / 🟧extra hard)
+      - [x] 🟨 Level 6 (🟨 normal / 🟧extra hard)
       - [x] 🟧 Texture for skeleton
       - [ ] 🟧 Texture for background(s)
-      - [ ] 🟧 Texture for objects
+      - [x] 🟧 Texture for objects
       - [x] 🟧 Texture for platform blocks
   - [ ] Mechanics
     - [x] 🟩 Gravity
     - [x] 🟩 Physics (gravity/collision)
     - [x] 🟩 Movement (WASD/Arrow keys)
-    - [ ] Puzzle mechanics
-      - [ ] 🟩 Time = score
-      - [ ] 🟧 Movable bricks (on to moving platform?)
+    - [x] Puzzle mechanics
+      - [x] 🟩 Time = score
+      - [x] 🟧 Movable bricks (on to moving platform?)
       - [ ] 🟧 UV Flashlight
-    - [ ] Trap mechanics
-      - [ ] 🟧 US23 Spike (respawn bottom level)
+    - [x] Trap mechanics
+      - [x] 🟧 US23 Spike (respawn bottom level)
   - [ ] Audio
     - [x] 🟨 Main menu/save selection music (Start-up, loop)
-    - [ ] 🟧 Level 1
+    - [x] 🟧 Level 1
     - [ ] 🟧 Level 2
     - [ ] 🟧 Level 3
     - [ ] 🟧 Level 4
     - [ ] 🟧 Level 5
     - [ ] 🟧 Level 6
-    - [ ] 🟧 Win/finish menu
+    - [x] 🟧 Win/finish menu
     - [ ] 🟥 Sound for beating your high score (SFX)
     - [ ] 🟥 Final win menu
-    - [ ] 🟨 Jump SFX
+    - [x] 🟨 Jump SFX
     - [ ] 🟥 Moving brick
     - [ ] 🟧 Flashlight click
     - [ ] 🟧 Moving sound
-    - [ ] 🟧 Collect key sound
+    - [x] 🟧 Collect key sound
     - [ ] 🟧 Open door with key sound
   - [ ] Easter eggs + Achievements
     - [ ] 🟥 25x piano note
